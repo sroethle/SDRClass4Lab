@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package class4.servlet;
 
 import java.io.IOException;
@@ -13,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- *
+ * Controller for calculating the area of a Rectangle
  * @author sroethle
  */
 public class AreaOfRectangleController extends HttpServlet {
