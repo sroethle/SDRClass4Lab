@@ -2,6 +2,7 @@
     Document   : ThirdSideOfTriangleView
     Created on : Feb 2, 2013, 3:59:18 PM
     Author     : Scott Roethle
+    Description: This page is the result page for the triangle. 
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,7 +13,7 @@
         <title>Third Side of Triangle</title>
     </head>
     <body>
-        
+        <!-- Output for the Triangle -->
         <%
             Object thirdSideOfTriangle = request.getAttribute("side3");
             out.println("<h2> The Third Side of the Triangle: " + thirdSideOfTriangle.toString() + " </h2>");

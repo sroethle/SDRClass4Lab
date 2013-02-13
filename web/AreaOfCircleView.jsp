@@ -2,6 +2,7 @@
     Document   : AreaOfCircleView
     Created on : Jan 30, 2013, 6:00:25 PM
     Author     : sroethle
+    Description: This page is the result page for the area of circle. 
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,7 +13,7 @@
         <title>Area of a Circle</title>
     </head>
     <body>
-        
+        <!-- Output for the Circle -->
         <%
             Object areaCircle = request.getAttribute("areaCircle");
             out.println("<h2> The Area of the Circle is: " + areaCircle.toString() + " </h2>");
